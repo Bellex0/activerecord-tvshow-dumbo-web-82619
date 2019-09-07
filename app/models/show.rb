@@ -26,6 +26,7 @@ end
 
 def shows_by_alphabetical_order
   Movie.order(name: :asc)
+end
   
   
   
