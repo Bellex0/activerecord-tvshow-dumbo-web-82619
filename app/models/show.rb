@@ -12,7 +12,11 @@ def lowest_rating
     Show.maximum("rating")
 end
 
+def least_popular_show
+  Show.lowest_rating
+end
 
+def 
   
   
   
