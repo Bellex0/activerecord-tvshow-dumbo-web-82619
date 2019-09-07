@@ -17,7 +17,10 @@ def least_popular_show
 end
 
 def ratings_sum
-  
+  Movie.sum("rating")
+end
+
+
   
   
   
