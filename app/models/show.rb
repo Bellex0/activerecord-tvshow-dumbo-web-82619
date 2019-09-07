@@ -8,7 +8,9 @@ def most_popular_show
   Show.highest_rating  
 end
 
-def 
+def lowest_rating
+    Show.maximum("rating")
+end
   
   
   
