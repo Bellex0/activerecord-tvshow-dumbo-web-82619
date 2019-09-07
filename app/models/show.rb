@@ -11,6 +11,8 @@ end
 def lowest_rating
     Show.maximum("rating")
 end
+
+
   
   
   
