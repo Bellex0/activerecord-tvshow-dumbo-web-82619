@@ -24,7 +24,8 @@ def popular_shows
   Movie.where("rating > 5")
 end
 
-
+def shows_by_alphabetical_order
+  Movie.order()
   
   
   
