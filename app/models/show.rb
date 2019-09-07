@@ -6,7 +6,7 @@ end
 
 def Show::most_popular_show
   Show.find do |show|
-    show.rating == show.highest_rating
+    show.rating == Show.highest_rating
   end
 end
 
@@ -16,7 +16,7 @@ end
 
 def Show::least_popular_show
    Show.find do |show|
-    show.rating == show.lowest_rating
+    show.rating == Show.lowest_rating
   end
 end
 
