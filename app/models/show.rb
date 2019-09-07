@@ -19,15 +19,15 @@ def Show::least_popular_show
 end
 
 def Show::ratings_sum
-  Movie.sum("rating")
+  Show.sum("rating")
 end
 
 def Show::popular_shows
-  Movie.where("rating > 5")
+  Show.where("rating > 5")
 end
 
 def Show::shows_by_alphabetical_order
-  Movie.order(:name)
+  Show.order(:name)
 end
   
   
