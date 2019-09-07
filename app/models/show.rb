@@ -25,7 +25,7 @@ def Show::popular_shows
 end
 
 def Show::shows_by_alphabetical_order
-  Movie.order(name: :asc)
+  Movie.order(name)
 end
   
   
