@@ -20,7 +20,11 @@ def ratings_sum
   Movie.sum("rating")
 end
 
-def 
+def popular_shows
+  Movie.where("rating > 5")
+end
+
+
   
   
   
