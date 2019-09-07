@@ -8,11 +8,11 @@ def Show::most_popular_show
   # Show.all.find do |show|
   #   show.rating == show.highest_rating
   # end
-  Show::highest_rating
+  S
 end
 
 def Show::lowest_rating
-    Show.maximum("rating")
+    Show.minimum("rating")
 end
 
 def Show::least_popular_show
