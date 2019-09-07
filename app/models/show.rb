@@ -1,10 +1,10 @@
 class Show < ActiveRecord::Base
   
-def highest_rating   
+def Show::highest_rating   
   Show.maximum("rating")
 end
 
-def most_popular_show
+def Show::most_popular_show
   Show.highest_rating  
 end
 
