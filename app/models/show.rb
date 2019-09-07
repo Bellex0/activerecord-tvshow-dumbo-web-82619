@@ -20,7 +20,7 @@ def ratings_sum
   Movie.sum("rating")
 end
 
-
+def 
   
   
   
